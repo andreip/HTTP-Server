@@ -1,0 +1,20 @@
+Basic HTTP server.
+
+Supports:
+* GET method
+
+How to use:
+* clone the repo
+* install ruby 1.9.x
+* From a CLI terminal, give the following command:
+	$ ruby httpd.rb
+* Then from another terminal / tab, give
+	$ telnet localhost 6000
+** 6000 is the port the server is listening
+
+* Query examples:
+	GET README
+	GET /test/FAQ
+	GET test
+
+* TODO: add support for other methods
