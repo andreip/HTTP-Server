@@ -1,0 +1,5 @@
+What is this useful for?
+* learning how an HTTP server works
+
+Is this functional?
+* yes, it only has GET method so far
